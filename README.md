@@ -11,7 +11,7 @@ For this project we are going to use only the VPC1 which will run two EC2 instan
 The public subnet contains an EC2 instance that we consider as a web server, the internet gateway enables this instance to have access to the internet and people from the internet access the instance. This makes instances in the public subnet expose to cyber threat.
 The private subnet contains an EC2 instance that we consider as a database. The instances in the private subnet are not accessible from the internet that is why it is more secure than the public subnet. However, the instance in the private subnet might need to access to the internet. This will be possible by using the NAT gateway that is in the public subnet, so the private instance will be routed to the internet gateway and access the internet.   
 
-In the following sections we have tdone a brief description of steps of the work, the details will in the attached PDF.
+In the following sections we have done a brief description of steps of the work, the details will in the attached PDF.
 
 II. Security Groups
 
